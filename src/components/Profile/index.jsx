@@ -40,7 +40,7 @@ const Profile = () => {
   };
 
   const handleSave = () => {
-    localStorage.setItem("profile", JSON.stringify(profile)); // Save to browser
+    localStorage.setItem("profile", JSON.stringify(profile)); 
     setIsEditing(false);
     alert("Profile updated!");
   };
