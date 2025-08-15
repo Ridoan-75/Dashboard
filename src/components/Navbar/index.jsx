@@ -26,7 +26,7 @@ const Navbar = ({ toggleSidebar }) => {
         <div className="flex items-center justify-content gap-x-2">
           <div className="relative">
             <div className="absolute bg-red-500 rounded-full w-2 h-2 top-[3px] right-[5px] "></div>
-            <IoMdNotificationsOutline className="text-gray-400 text-[25px] md:text-[30px] " />
+            <IoMdNotificationsOutline className="text-gray-400 text-[25px] md:text-[30px] cursor-pointer" />
           </div>
           <div className="flex items-center gap-3">
             <SignedOut>
